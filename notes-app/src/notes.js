@@ -99,12 +99,12 @@ const updateNote = (noteId, updates) => {
 
     if(typeof updates.title === 'string') {
         note.title = updates.title;
-        note.updateAt = moment().valueOf();
+        note.updatedAt = moment().valueOf();
     }
 
     if(typeof updates.body === 'string') {
         note.body = updates.body;
-        note.updateAt = moment().valueOf();
+        note.updatedAt = moment().valueOf();
     }
 
     saveNotes();
