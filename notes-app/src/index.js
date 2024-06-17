@@ -26,14 +26,14 @@ document.querySelector("#search-text").addEventListener("input", (event) => {
     setFilters({
         searchText: event.target.value
     });
-    renderNotes(notes, filters);
+    renderNotes(notes);
 });
 
 document.querySelector("#filter-by").addEventListener("change", (event) => {
     setFilters({
         sortBy: event.target.value
     });
-    renderNotes(notes, filters);
+    renderNotes(notes);
 })
 
 window.addEventListener("storage", (event) => {
