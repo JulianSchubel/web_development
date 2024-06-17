@@ -1,0 +1,74 @@
+span{
+  color: #0066ff;
+  font-size: 14px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+#background-image{
+  height: 400px;
+  background-image: url(../images/tv12.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  background-position: top center;
+  background-attachment: scroll;
+}
+
+#comment_name{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+
+#comment_content:focus{
+  outline: 2px #0075c9;
+}
+
+.navbar{
+  margin-bottom: 0;
+  background-color: #333e48;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 5px;
+  border-radius: 0
+}
+
+.nav-link {
+  display: run-in;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  filter: grayscale(100%) opacity(0.7);
+  transition: var(--transition-speed);
+}
+
+.navbar li a, .navbar .navbar-brand{
+  color: #0066ff;
+}
+
+/*.navbar-nav li a:hover, .navbar-nav li.active a{
+  color: #000000 !important;
+  background-color: #0066ff !important;
+}*/
+
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+  color: #0066ff !important;
+}
+p {
+		font-family: 'Gotham HTF Book';
+		font-size: 25px;
+		font-weight:100px;
+    font-style: italic;
+		text-align: center;
+		color: #333e48;
+		background-color:(0,0,0);
+		line-height= 30px; }
