@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Hangman</Title>
+        <link href="./images/favicon.png" rel="icon"></link>
+        <link href="./styles/styles.css" rel="stylesheet"></link>
+    </head>    
+    <body>
+        <div>
+            <div id="puzzle" class="puzzle"></div>
+            <p id="guesses"></p>
+            <div class="wordCount">
+                <label for="wordCount" class="label">Word Count</label>
+                    <select id="wordCount">
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                    </select>
+            </div>
+            <div class="maxGuesses">       
+                <label for="maxGuesses" class="label">Maximum Guesses</label>
+                    <select id="maxGuesses"> 
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                        <option value=10>10</option>
+                    </select>
+            </div>
+            <button id="reset" class="button">Start Game</button>
+        </div>
+        <script src="./scripts/bundle.js"></script>
+    </body>
+</html>
+
